@@ -1,0 +1,16 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $text-color;
+}
+
+body {
+  background: $bg-color;
+}
+
+a, svg {
+  transition: .5s;
+}

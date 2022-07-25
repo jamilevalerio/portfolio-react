@@ -1,0 +1,32 @@
+@import '../styles/variables.scss';
+@import '../styles/mixins.scss';
+
+.sidebar {
+  align-items: center;
+  background: $bg-container-color;
+  border-radius: $b-radius-container;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem 0;
+
+  .profile-img {
+    border-radius: $b-radius-container;
+    max-width: 70%;
+    position: absolute;
+    top: -3rem;
+  }
+
+  .job-role {
+    @include btn;
+    background: $bg-color;
+    margin: 12rem 0 0;
+  }
+  
+  .btn-download {
+    @include btn;
+    background: $text-gradient-color;
+    text-decoration: none;
+  }
+}
