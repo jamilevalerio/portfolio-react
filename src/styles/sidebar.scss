@@ -9,13 +9,14 @@
   flex: 1 1 0;
   flex-direction: column;
   text-align: center;
-  padding: 3rem 0;
+  padding: $max-space 0;
+  position: relative;
 
   .profile-img {
     border-radius: $b-radius-container;
     max-width: 70%;
     position: absolute;
-    top: -3rem;
+    top: -$max-space;
   }
 
   .job-role {

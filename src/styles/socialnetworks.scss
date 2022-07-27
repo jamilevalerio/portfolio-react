@@ -1,0 +1,20 @@
+@import 'variables';
+@import 'mixins';
+
+.social-network {
+  @include center(center, flex, center);
+  padding: $min-space 0;
+
+  :hover {
+    background: $text-gradient-color;
+    border-radius: $b-radius-card;
+  }
+
+  .network-icon {
+    padding: $min-space;
+  }
+
+  svg {
+    font-size: 1.5rem;
+  }
+}

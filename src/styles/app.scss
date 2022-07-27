@@ -3,8 +3,8 @@
 .fullpage {
   display: flex;
   flex-wrap: wrap;
-  padding: 3rem;
-  gap: 3rem;
+  padding: $max-space;
+  gap: $max-space;
 
   .page-title {
     background: $text-gradient-color;

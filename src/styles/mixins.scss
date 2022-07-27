@@ -2,3 +2,9 @@
   border-radius: $b-radius-card;
   padding: .8rem 1.2rem;
 }
+
+@mixin center($align, $display, $justify) {
+  align-items: $align;
+  display: $display;
+  justify-content: $justify;
+}
