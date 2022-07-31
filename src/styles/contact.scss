@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'mixins';
+
+.contact {
+  @include flex(center, center);
+  gap: 2rem;
+  flex-direction: column;
+  margin: 0 0 2rem;
+  padding: $min-space;
+  text-align: left;
+  width: 80%;
+
+  svg {
+    font-size: 1.5rem;
+  }
+
+  .contact-info {
+    @include flex(center, start);
+    border-bottom: 1px solid $text-color;
+    gap: $min-space;
+    padding: 0 0 $min-space;
+    width: 100%;
+  }
+}

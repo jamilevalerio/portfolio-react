@@ -3,8 +3,8 @@
   padding: .8rem 1.2rem;
 }
 
-@mixin center($align, $display, $justify) {
+@mixin flex($align, $justify) {
   align-items: $align;
-  display: $display;
+  display: flex;
   justify-content: $justify;
 }

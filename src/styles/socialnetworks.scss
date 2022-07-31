@@ -2,7 +2,7 @@
 @import 'mixins';
 
 .social-network {
-  @include center(center, flex, center);
+  @include flex(center, center);
   padding: $min-space 0;
 
   :hover {
