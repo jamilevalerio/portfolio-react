@@ -1,0 +1,50 @@
+@import 'variables';
+
+.tech-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $min-space;
+
+  .tech-card {
+    border: 1px solid;
+    display: flex;
+    gap: $min-space;
+    padding: $min-space;
+    width: 48%;
+
+    svg {
+      font-size: $max-space;
+    }
+
+
+  }
+
+  .javascript svg {
+    fill: #F0DB4F;
+  }
+
+  .html svg {
+    fill: #E44D26;
+  }
+
+  .git svg {
+    fill: #ff0017;
+  }
+
+  .sass svg {
+    fill: #e53398;
+  }
+
+  .drupal svg {
+    fill: #006ebe;
+  }
+
+  .bootstrap svg {
+    fill: #7952b3;
+  }
+
+  .react svg {
+    fill: #61DAFB;
+  }
+}
+

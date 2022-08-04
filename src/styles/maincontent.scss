@@ -1,9 +1,36 @@
 @import 'variables';
+@import 'mixins';
 
 .main-content {
   background: $bg-container-color;
   display: flex;
+  flex-direction: column;
   flex: 2 1 0;
+
+  section {
+    @include flex(unset, unset);
+    flex-direction: column;
+    padding: $min-space;
+    min-width: 0;
+
+    h2 {
+      @include flex(center,start);
+      gap: $min-space;
+      padding: 0 0 $min-space;
+ 
+
+      &:after {
+        content: '';
+        background: $text-gradient-color;
+        height: 2px;
+        width: 30%;
+      }
+    }
+
+    p {
+      line-height: 1.4rem;
+    }
+  }
 }
 
 
