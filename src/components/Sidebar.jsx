@@ -10,7 +10,7 @@ const Sidebar = () => {
       <h2 className="job-role">Front-end Developer</h2>
       <SocialNetworks />
       <Contact />
-      <a href="" className='btn-download'>Download resume</a>
+      <a href="/src/doc/jamile-valerio.pdf" target="_blank"className='btn-download'>Download resume</a>
     </aside>
   )
 }
